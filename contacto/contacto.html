@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contaStyle.css">
+    <title>Contacto | Luis Carrero</title>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../sobreMi/sobreMi.html">Sobre mí</a></li>
+                <li><a href="../proyectos/proyectos.html">Proyectos</a></li>
+                <li><a href="../contacto/contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div class="content-overlay"></div>
+        
+        <div class="content-info">
+            <h1>Ponte en Contacto</h1>
+            <h2>¡Me gustaría saber de ti!</h2>
+            <p>Si tienes alguna pregunta o simplemente quieres saludar, ¡por favor utiliza el formulario de contacto!</p>
+        </div>
+
+        <div class="content-formulario">
+            <form action="https://formspree.io/f/TU_ID_AQUÍ" method="POST">
+                <h2>Contáctame</h2>
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu email" required>
+                <textarea name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="http://www.linkedin.com/in/luis-carrero-2a0ab216a" target="_blank">
+                    <img src="../logo_lin.png" alt="LinkedIn" class="social-icon">
+                </a>
+                <a href="https://github.com/Lcarreroy?tab=repositories" target="_blank">
+                    <img src="../github.png" alt="GitHub" class="social-icon">
+                </a>
+            </div>
+            <div class="footer-info">
+                <p>Luis Carrero — Desarrollador Web — © 2026. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
