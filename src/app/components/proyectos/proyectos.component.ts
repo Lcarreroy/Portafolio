@@ -50,10 +50,10 @@ import { Component } from '@angular/core';
   `,
   styles: [`
     .hero {
-      min-height: 90vh;
+      min-height: 40vh;
       display: flex;
       align-items: center;
-      padding: 0 60px;
+      padding: 120px 60px 60px;
       background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("proyectos/img_fondo_pg_proyec.avif") center / cover no-repeat;
     }
     .hero-content {
@@ -71,12 +71,12 @@ import { Component } from '@angular/core';
       background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("proyectos/img_fondo_pg_proyec.avif") center / cover no-repeat;
     }
     section {
-      padding: 90px 60px;
+      padding: 60px;
     }
     .section-title {
       font-size: 36px;
       text-align: center;
-      margin-bottom: 60px;
+      margin-bottom: 40px;
     }
     .projects-grid {
       display: grid;
