@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
       <div class="projects-grid">
         <article class="project-card">
           <a href="../Pag. restaurante/pagina.html" target="_blank">
-            <img src="proyectos/img_proyecto_restaurant.png" alt="Proyecto restaurante">
+            <img src="assets/images/img_proyecto_restaurant.png" alt="Proyecto restaurante">
           </a>
           <div class="project-info">
             <h3>Restaurante Burger</h3>
@@ -24,7 +24,7 @@ import { Component } from '@angular/core';
         </article>
         <article class="project-card">
           <a href="https://buscador-peliculas-v1.vercel.app/">
-            <img src="proyectos/buscador_peliculas.png" alt="Proyecto landing">
+            <img src="assets/images/buscador_peliculas.png" alt="Proyecto landing">
           </a>
           <div class="project-info">
             <h3>Consumo de API</h3>
@@ -37,7 +37,7 @@ import { Component } from '@angular/core';
         </article>
         <article class="project-card">
           <a href="https://lista-tareas-one-inky.vercel.app/">
-            <img src="proyectos/img_tarea.png" alt="Proyecto lista-tareas">
+            <img src="assets/images/img_tarea.png" alt="Proyecto lista-tareas">
           </a>
           <div class="project-info">
             <h3>Lista Tareas</h3>
@@ -54,7 +54,7 @@ import { Component } from '@angular/core';
       display: flex;
       align-items: center;
       padding: 120px 60px 60px;
-      background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("proyectos/img_fondo_pg_proyec.avif") center / cover no-repeat;
+      background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("/assets/images/img_fondo_pg_proyec.avif") center / cover no-repeat;
     }
     .hero-content {
       max-width: 600px;
@@ -68,7 +68,7 @@ import { Component } from '@angular/core';
       color: #cfcfcf;
     }
     .project-section {
-      background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("proyectos/img_fondo_pg_proyec.avif") center / cover no-repeat;
+      background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url("/assets/images/img_fondo_pg_proyec.avif") center / cover no-repeat;
     }
     section {
       padding: 60px;

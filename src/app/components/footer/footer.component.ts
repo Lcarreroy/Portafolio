@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
       <div class="footer-content">
         <div class="footer-social">
           <a href="http://www.linkedin.com/in/luis-carrero-2a0ab216a" target="_blank">
-            <img src="logo_lin.png" alt="LinkedIn" class="social-icon">
+            <img src="assets/images/logo_lin.png" alt="LinkedIn" class="social-icon">
           </a>
           <a href="https://github.com/lcarreroy" target="_blank">
-            <img src="github.png" alt="GitHub" class="social-icon">
+            <img src="assets/images/github.png" alt="GitHub" class="social-icon">
           </a>
         </div>
         <div class="footer-info">

@@ -33,7 +33,7 @@ import { Component } from '@angular/core';
       justify-content: space-around;
       gap: 90px;
       padding: 0 60px;
-      background: url("contacto/img_fondo_contacto.avif") center / cover no-repeat;
+      background: url("/assets/images/img_fondo_contacto.avif") center / cover no-repeat;
     }
     .content-overlay {
       position: absolute;

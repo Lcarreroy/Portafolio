@@ -17,18 +17,7 @@
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/assets",
-              { "glob": "nueva_imagen.jpg", "input": "./", "output": "/" },
-              { "glob": "logo_lin.png", "input": "./", "output": "/" },
-              { "glob": "github.png", "input": "./", "output": "/" },
-              { "glob": "img_fondo_contacto.avif", "input": "contacto", "output": "/contacto" },
-              { "glob": "img_fondo_pg_proyec.avif", "input": "proyectos", "output": "/proyectos" },
-              { "glob": "img_proyecto_restaurant.png", "input": "proyectos", "output": "/proyectos" },
-              { "glob": "buscador_peliculas.png", "input": "proyectos", "output": "/proyectos" },
-              { "glob": "img_tarea.png", "input": "proyectos", "output": "/proyectos" },
-              { "glob": "fondo_principal_sobreMi.jpg", "input": "sobreMi", "output": "/sobreMi" }
-            ],
+            "assets": ["src/assets"],
             "styles": ["src/styles.css"],
             "scripts": []
           },

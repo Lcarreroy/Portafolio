@@ -26,7 +26,7 @@ import { RouterModule } from '@angular/router';
     .hero {
       position: relative;
       min-height: 100vh;
-      background: url("nueva_imagen.jpg") center / cover no-repeat;
+      background: url("/assets/images/nueva_imagen.jpg") center / cover no-repeat;
       display: flex;
       align-items: center;
       padding-left: 80px;

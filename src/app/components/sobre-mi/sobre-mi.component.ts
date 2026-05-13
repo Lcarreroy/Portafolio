@@ -30,7 +30,7 @@ import { Component } from '@angular/core';
       display: flex;
       align-items: center;
       justify-content: center;
-      background-image: url('sobreMi/fondo_principal_sobreMi.jpg');
+      background-image: url('/assets/images/fondo_principal_sobreMi.jpg');
       background-size: cover;
       background-position: center;
       position: relative;
